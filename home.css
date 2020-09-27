@@ -1,0 +1,360 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Do this first, allows the picture to go across the page outside the viewport.*/
+
+header img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+header{
+    background-color: white;
+    padding: 0;
+    margin: 0em 4em 2.5em 4em;
+}
+/*In order: top, right, bottom, left*/
+
+nav{
+    margin-top: 1.4em;
+}
+
+nav ul{
+    list-style: none;
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+}
+/*padding-top changes the space above the list item*/
+
+nav li{
+    display: inline;
+    font-size: 1em;
+    margin-left: 1.4em; 
+}
+/*margin-left changes the space inbetween the words*/
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(173, 26, 114);
+}
+
+#showcase{
+    background-image: url(images/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 1em;
+    height: 35em;
+    overflow: hidden;
+    border-bottom: 9px solid #971D66
+}
+/*margin-top changes the space on top of the image.*/
+
+#showcase h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 4em;
+    padding: 8px 5px 5px 5px;
+    margin: 126px 2px 2px 104px;
+}
+
+#showcase p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 3px 5px 5px 5px;
+    margin: 9px 300px 1px 106px;
+    word-spacing: 1px;
+    letter-spacing: 1.2px;
+    line-height: 32px;
+}
+
+#showcase button{
+    background-color: #971D66;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 24px 14px 24px;
+    margin: 37px 1px 1px 67px;
+}
+/*In order: top, right, bottom, left*/
+
+#j-button{
+    padding-left: 45px;
+}
+
+#r-button{
+    padding-left: 2px;
+}
+
+#we-help{
+    background-color: white;
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 1em;
+    height: 29em;
+    overflow: hidden;
+}
+
+#we-help h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 3.6em;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    margin: 115px 5px 5px 60px;
+}
+
+#we-help p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 18px 84px 83px 99px;
+    word-spacing: 1px;
+    line-height: 45px;
+}
+/*In order: top, right, bottom, left*/
+
+#how-we-help{
+    background-image: url(images/we-help.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: auto;
+    height: 34em;
+    overflow: hidden;
+}
+
+#how-we-help h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 3.6em;
+    text-align: center;
+    word-spacing: 1px;
+    padding: 8px 5px 5px 5px;
+    margin: 140px 5px 5px 40px;
+}
+
+#how-we-help p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 18px 84px 83px 99px;
+    word-spacing: 1px;
+    line-height: 45px;
+}
+/*In order: top, right, bottom, left*/
+
+#you-matter{
+    background-color: white;
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    height: 29em;
+    overflow: hidden;
+}
+
+#you-matter h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 3.6em;
+    text-align: center;
+    padding: 8px 5px 5px 5px;
+    margin: 120px 5px 5px 60px;
+}
+
+#you-matter p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 18px 84px 83px 99px;
+    word-spacing: 1px;
+    line-height: 45px;
+}
+/*In order: top, right, bottom, left*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 33em;
+}
+
+#jobs-box1{
+    background-color: #ECECEC;
+    height: 33em;
+    width: 65em;
+    max-width: 100%;
+    max-height: auto;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 8px 8px 130px;
+    overflow: hidden;
+}
+
+#jobs-box1 h3{
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 2em;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 40px 12px 8px 12px;
+}
+
+#jobs-box1 p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 40px;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 30px 8px 30px;
+}
+/*In order: top, right, bottom, left*/
+
+#jobs-box1 button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(51, 51, 51);
+    padding: 13px 30px 13px 30px;
+    margin: 16px 8px 8px 155px;
+}
+
+#jobs-box2{
+    background-color: #ECECEC;
+    height: 33em;
+    width: 65em;
+    max-width: 100%;
+    max-height: auto;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 130px 8px 113px;
+    overflow: hidden;
+}
+
+#jobs-box2 h3{
+    font-family: 'Lato', sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 2em;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 40px 12px 8px 12px;
+}
+
+#jobs-box2 p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    word-spacing: 1px;
+    line-height: 40px;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 30px 8px 30px;
+}
+
+#jobs-box2 button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(51, 51, 51);
+    padding: 13px 30px 13px 30px;
+    margin: 16px 8px 8px 155px;
+}
+/*In order: top, right, bottom, left*/
+
+.container-2{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 51, 51);
+    height: 30em;
+    width: 83.3em;
+    max-width: 100%;
+    max-height: auto;
+    padding: 8px 8px 8px 8px;
+    margin: 190px 0px 0px 0px;
+    overflow: hidden;
+}
+/*In order: top, right, bottom, left*/
+
+#footer-box1{
+    width: 26em;
+    padding: 8px 8px 8px 8px;
+    margin: 45px 8px 8px 120px;
+}
+
+#footer-box1 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+#footer-box1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+#footer-box2{
+    width: 21em;
+    padding: 8px 8px 8px 8px;
+    margin: 45px 8px 8px 20px;
+    float: left;
+}
+/*In order: top, right, bottom, left*/
+
+#footer-box2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+#footer-box2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+#footer-box3{
+    width: 22em;
+    padding: 8px 8px 8px 8px;
+    margin: 52px 8px 8px 20px;
+}
+/*In order: top, right, bottom, left*/
+
+#footer-box3 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
